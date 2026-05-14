@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Built By Nova | Get the 60-Day Program</title>
+  <meta name="description" content="Get instant access to the Built By Nova 60-day transformation program. $17.99 one-time. Instant digital download.">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-70B3RZWKPC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-70B3RZWKPC');
+  </script>
+
+  <!-- Stripe — must load before js/stripe.js -->
+  <script src="https://js.stripe.com/v3/" defer></script>
+
+  <!-- PayPal SDK -->
+  <script
+    src="https://www.paypal.com/sdk/js?client-id=BAAL5x4dsILbQRepiTeke286sCvSduKAju8-MoZwUkTDLWcXJ2kXufYeQp5XuHUO9xWXIvnv9Hliv1DiyI&currency=USD"
+    defer
+  ></script>
+</head>
+<body>
+
+<!-- ══ NAV ════════════════════════════════════════════════════════ -->
+<nav class="nav" id="nav">
+  <div class="container">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Built By <span>Nova</span></a>
+      <ul class="nav__links">
+        <li><a href="index.html#program">Program</a></li>
+        <li><a href="index.html#results">Results</a></li>
+        <li><a href="index.html#included">What's Inside</a></li>
+      </ul>
+      <a href="#checkout" class="nav__cta">Get Access &mdash; $17.99</a>
+      <button class="nav__burger" id="navBurger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="nav__mobile" id="navMobile">
+    <a href="index.html#program">Program</a>
+    <a href="index.html#results">Results</a>
+    <a href="index.html#included">What's Inside</a>
+    <a href="#checkout" class="nav__mobile-cta">Get Access &mdash; $17.99</a>
+  </div>
+</nav>
+
+<!-- ══ HERO — TWO-COLUMN ═══════════════════════════════════════════ -->
+<section class="h2c">
+  <div class="h2c-orb h2c-orb--1"></div>
+  <div class="h2c-orb h2c-orb--2"></div>
+  <div class="h2c-orb h2c-orb--3"></div>
+  <div class="container">
+    <div class="h2c-grid">
+
+      <!-- LEFT -->
+      <div class="h2c-left">
+        <span class="h2c-label">60-Day Women's Transformation Program</span>
+        <h1 class="h2c-h1">Build Your Dream Body<br>in 60 Days</h1>
+        <p class="h2c-sub">A complete workout, meal, and tracking system designed to help you lose fat, shape your body, and stay consistent — without guessing what to do every day.</p>
+        <div class="h2c-actions">
+          <a href="#checkout" class="btn h2c-cta btn--lg">
+            Get Instant Access — $17.99
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+        <p class="h2c-trust">One-time payment &bull; Instant download &bull; No subscription</p>
+        <div class="h2c-pills">
+          <span class="h2c-pill">50+ Pages</span>
+          <span class="h2c-pill">Workout Plan</span>
+          <span class="h2c-pill">Meal Plan</span>
+          <span class="h2c-pill">Daily Tracker</span>
+        </div>
+      </div>
+
+      <!-- RIGHT: product mockup stack -->
+      <div class="h2c-right">
+        <div class="pdm">
+          <div class="pdm-card pdm-card--3">
+            <p class="pdm-card__lbl">Progress Tracker</p>
+            <div class="pdm-bars"><span></span><span></span><span></span></div>
+          </div>
+          <div class="pdm-card pdm-card--2">
+            <p class="pdm-card__lbl">Meal Plan</p>
+            <div class="pdm-bars"><span></span><span></span><span></span></div>
+          </div>
+          <div class="pdm-card pdm-card--1">
+            <p class="pdm-card__lbl">Workout Plan</p>
+            <div class="pdm-bars"><span></span><span></span><span></span></div>
+          </div>
+          <div class="pdm-front">
+            <img src="Buying page product image.png" alt="Built By Nova 60-Day Transformation Program">
+          </div>
+          <div class="pdm-result">
+            <span class="pdm-result__star">✦</span>
+            Real structure. Real consistency. Real results.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ TRANSFORMATION SLIDER ══════════════════════════════════════ -->
+<section class="section section--navy">
+  <div class="container">
+
+    <div class="section-header" data-anim="up">
+      <p class="eyebrow">Real results</p>
+      <h2>See What 60 Days Does</h2>
+    </div>
+
+    <div class="tx-slider" id="tx-slider" data-anim="up" data-delay="60">
+
+      <div class="tx-slider__track">
+
+        <!-- Slide 1 -->
+        <div class="tx-slider__slide">
+          <div class="tx-slider__pair">
+            <div class="tx-slider__frame">
+              <img src="Beforepics/hf_20260507_011346_d4c6314f-da80-4032-bc70-9d7ad7cb67da.png" alt="Before — transformation 1" loading="lazy">
+              <span class="ba__label">Before</span>
+            </div>
+            <div class="tx-slider__frame">
+              <img src="Afterpics/hf_20260426_211114_41026506-8359-492c-9f11-f89cfc9fe214.png" alt="After — transformation 1" loading="lazy">
+              <span class="ba__label ba__label--after">After</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="tx-slider__slide">
+          <div class="tx-slider__pair">
+            <div class="tx-slider__frame">
+              <img src="Beforepics/hf_20260511_055811_6dbe5ca8-4497-4e12-bcae-d9be642e803d.png" alt="Before — transformation 2" loading="lazy">
+              <span class="ba__label">Before</span>
+            </div>
+            <div class="tx-slider__frame">
+              <img src="Afterpics/hf_20260511_055214_93d22507-704a-4fc0-a7ab-ea0709cb25f4.png" alt="After — transformation 2" loading="lazy">
+              <span class="ba__label ba__label--after">After</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="tx-slider__slide">
+          <div class="tx-slider__pair">
+            <div class="tx-slider__frame">
+              <img src="Beforepics/hf_20260511_055954_a3277ef7-5ef9-4898-969f-94725e950ff2.png" alt="Before — transformation 3" loading="lazy">
+              <span class="ba__label">Before</span>
+            </div>
+            <div class="tx-slider__frame">
+              <img src="Afterpics/hf_20260511_055412_41f0a7d8-af1a-41cf-a7b9-ce553d7eb0fe.png" alt="After — transformation 3" loading="lazy">
+              <span class="ba__label ba__label--after">After</span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /.tx-slider__track -->
+
+      <!-- Controls -->
+      <div class="slider-nav">
+        <button class="slider-nav__btn" data-prev aria-label="Previous">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        </button>
+        <div class="slider-dots">
+          <button class="slider-dot active" aria-label="Slide 1"></button>
+          <button class="slider-dot" aria-label="Slide 2"></button>
+          <button class="slider-dot" aria-label="Slide 3"></button>
+        </div>
+        <button class="slider-nav__btn" data-next aria-label="Next">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+
+    </div><!-- /#tx-slider -->
+
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- ══ WHAT YOU GET ════════════════════════════════════════════════ -->
+<section class="section--sm section--white">
+  <div class="container">
+
+    <div class="section-header" data-anim="up">
+      <p class="eyebrow">Everything included</p>
+      <h2>One Program. Everything You Need.</h2>
+    </div>
+
+    <div class="features-minimal">
+
+      <div class="feat" data-anim="up" data-delay="0">
+        <h3>Workout Program</h3>
+        <p>60 days of progressive training. Every session laid out. Home and gym options for all of it.</p>
+      </div>
+
+      <div class="feat" data-anim="up" data-delay="90">
+        <h3>Meal Plans &amp; Nutrition</h3>
+        <p>8-week rotating meal plan with recipes, grocery lists, and macro targets. Flexible enough for real life.</p>
+      </div>
+
+      <div class="feat" data-anim="up" data-delay="180">
+        <h3>Daily Tracking System</h3>
+        <p>Daily templates, weekly check-ins, and progress tracking that keeps you consistent for all 60 days.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- ══ CHECKOUT ════════════════════════════════════════════════════ -->
+<section class="section section--white" id="checkout">
+  <div class="container">
+    <div class="payment-layout">
+
+      <!-- Left: Order summary -->
+      <div class="payment-summary" data-anim="left">
+        <p class="eyebrow">Your order</p>
+        <h2>Built By Nova<br>60-Day Program</h2>
+        <p class="sub-text">One payment. Immediate access. Start your transformation the moment you check out.</p>
+
+        <div class="product-cover-wrap">
+          <img src="Buying page product image.png" alt="Built By Nova 60-Day Weight Loss Plan — book cover" class="product-cover">
+        </div>
+
+        <div class="pricing-block">
+          <span class="badge badge--mustard" style="margin-bottom:18px;display:inline-block;">Limited Time</span>
+          <p class="pricing-was">$27.99</p>
+          <div class="pricing-now"><sup>$</sup>17.99</div>
+          <p class="pricing-note">One-time &bull; Instant digital download &bull; No subscription</p>
+        </div>
+
+        <p class="includes-label">What&rsquo;s included</p>
+        <ul class="includes-list">
+          <li>60-Day Progressive Workout Calendar</li>
+          <li>8-Week Meal Plan with Recipes &amp; Grocery Lists</li>
+          <li>Daily Tracking Journal &amp; Habit Templates</li>
+          <li>Progress Photo Guide &amp; Measurement Tracker</li>
+          <li>Mindset &amp; Motivation Framework</li>
+          <li>Instant Digital Download &mdash; Access Today</li>
+        </ul>
+      </div>
+
+      <!-- Right: Payment form -->
+      <div data-anim="right">
+        <div class="payment-card">
+
+          <div class="payment-card__heading">Get Instant Access</div>
+          <div class="pay-price-row">
+            <span class="pay-was">$27.99</span>
+            <div class="pay-now"><sup>$</sup>17.99</div>
+          </div>
+          <p class="payment-card__sub">One-time payment &bull; Immediate download &bull; No subscription</p>
+
+          <form id="payment-form" novalidate>
+
+            <div class="form-group">
+              <label class="form-label" for="billing-name">Full Name</label>
+              <input
+                type="text" id="billing-name" name="name"
+                class="form-input" placeholder="Jane Smith"
+                autocomplete="name" required
+              >
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="billing-email">Email Address</label>
+              <input
+                type="email" id="billing-email" name="email"
+                class="form-input" placeholder="jane@example.com"
+                autocomplete="email" required
+              >
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Card Details</label>
+              <div class="card-host">
+                <div id="card-element"></div>
+              </div>
+              <p class="form-error" id="card-error" role="alert"></p>
+            </div>
+
+            <button type="submit" class="btn btn--pay btn--lg btn--full" id="pay-btn">
+              Complete Purchase
+            </button>
+
+          </form>
+
+          <!-- ══ Success message (shown after payment) ══ -->
+          <div id="payment-success" class="pay-success" style="display:none;" aria-live="polite">
+            <div class="pay-success__icon">
+              <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="32" cy="32" r="32" fill="rgba(24,195,248,0.10)"/>
+                <circle cx="32" cy="32" r="22" fill="rgba(24,195,248,0.18)"/>
+                <path d="M21 32l8 8 14-14" stroke="#18C3F8" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="pay-success__title">Payment Successful!</h3>
+            <p class="pay-success__msg">We're sending your 60-day guide to <strong id="success-email"></strong> immediately.</p>
+            <p class="pay-success__sub">Check your email in the next few minutes.</p>
+            <a href="index.html" class="btn btn--pay btn--lg btn--full pay-success__back">Back to Home</a>
+          </div>
+
+          <div class="or-divider">or pay with</div>
+          <div id="paypal-container"></div>
+          <p class="form-error" id="paypal-error" role="alert"></p>
+
+          <div class="secure-note">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+            256-bit encrypted checkout &nbsp;&bull;&nbsp; Powered by Stripe
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- ══ TESTIMONIALS ═══════════════════════════════════════════════ -->
+<section class="section section--navy">
+  <div class="container">
+
+    <div class="section-header" data-anim="up">
+      <p class="eyebrow">From members</p>
+      <h2>It Works When You Work It</h2>
+    </div>
+
+    <div class="testi-grid testi-grid--2">
+
+      <div class="testi-card testi-card--dark" data-anim="up" data-delay="0">
+        <div class="testi-accent"></div>
+        <p class="testi-quote">I honestly expected a generic PDF. What I got was a complete system. I&rsquo;m on my second round and I still refer to the nutrition guide every week.</p>
+        <div class="testi-meta">
+          <div class="testi-name">Keisha L.</div>
+          <div class="testi-detail">Currently on round 2</div>
+        </div>
+      </div>
+
+      <div class="testi-card testi-card--dark" data-anim="up" data-delay="90">
+        <div class="testi-accent"></div>
+        <p class="testi-quote">Two kids, long work weeks, no excuses. The workouts are efficient and the meal prep guide actually fits a real schedule. I see results every single week.</p>
+        <div class="testi-meta">
+          <div class="testi-name">Mariah F.</div>
+          <div class="testi-detail">Busy mom of 2</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══════════════════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div>
+        <div class="footer__brand">Built By <span>Nova</span></div>
+        <p class="footer__about">Premium fitness coaching for women who are serious about real, lasting change.</p>
+      </div>
+      <div>
+        <div class="footer__nav-heading">Program</div>
+        <ul class="footer__links">
+          <li><a href="index.html">Landing Page</a></li>
+          <li><a href="index.html#included">What&rsquo;s Inside</a></li>
+          <li><a href="#checkout">Get Access</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer__nav-heading">Support</div>
+        <ul class="footer__links">
+          <li><a href="mailto:novabuiltbusiness@gmail.com">novabuiltbusiness@gmail.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer__nav-heading">Follow</div>
+        <ul class="footer__links">
+          <li>
+            <a href="https://www.instagram.com/novavbuilt" target="_blank" rel="noopener noreferrer" style="display:flex;align-items:center;gap:8px;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+              </svg>
+              @novavbuilt
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 Built By Nova. All rights reserved.</span>
+      <span>Individual results vary based on adherence to the program.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/animations.js"></script>
+<script src="js/stripe.js" defer></script>
+<script src="js/paypal.js" defer></script>
+<script>
+(function(){
+  var burger = document.getElementById('navBurger');
+  var nav = document.getElementById('nav');
+  if(burger) burger.addEventListener('click', function(){
+    nav.classList.toggle('open');
+  });
+  document.querySelectorAll('.nav__mobile a').forEach(function(a){
+    a.addEventListener('click', function(){ nav.classList.remove('open'); });
+  });
+
+  // Scrolled class
+  window.addEventListener('scroll', function(){
+    nav.classList.toggle('scrolled', window.scrollY > 10);
+  }, {passive:true});
+})();
+</script>
+</body>
+</html>

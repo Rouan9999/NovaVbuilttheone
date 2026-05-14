@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item *)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\Rouan\\\\Desktop\\\\nova-landing-page\" -Recurse | Where-Object { !$_.PSIsContainer } | Select-Object FullName, Length | Format-Table -AutoSize)",
+      "Bash(start *)",
+      "Bash(node -e ' *)",
+      "Bash(vercel --version)",
+      "PowerShell(vercel *)",
+      "PowerShell(npm install *)",
+      "WebFetch(domain:nova-landing-page-beta.vercel.app)",
+      "WebFetch(domain:nova-vbuilttheone-git-main-nova-s-projects6.vercel.app)",
+      "PowerShell(Start-Process \"C:\\\\Users\\\\Rouan\\\\Desktop\\\\nova-landing-page\\\\product.html\")",
+      "WebFetch(domain:www.novavbuilt.com)"
+    ]
+  }
+}
