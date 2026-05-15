@@ -14,7 +14,13 @@
       "WebFetch(domain:www.novavbuilt.com)",
       "PowerShell(Start-Process \"C:\\\\Users\\\\Rouan\\\\Desktop\\\\nova-landing-page\\\\index.html\")",
       "Bash(vercel --prod)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(git branch *)",
+      "Bash(git fetch *)",
+      "Bash(vercel env *)"
     ]
   }
 }
