@@ -17,7 +17,7 @@ module.exports = async (req, res) => {
   }
 
   try {
-    const { amount = 1799, currency = 'usd', email = '', name = '' } = req.body;
+    const { amount = 100, currency = 'usd', email = '', name = '' } = req.body;
 
     if (!email) {
       return res.status(400).json({ error: 'Email is required.' });

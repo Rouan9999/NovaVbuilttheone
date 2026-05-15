@@ -20,7 +20,9 @@
       "Bash(git push *)",
       "Bash(git branch *)",
       "Bash(git fetch *)",
-      "Bash(vercel env *)"
+      "Bash(vercel env *)",
+      "Bash(git rebase *)",
+      "Bash(curl *)"
     ]
   }
 }

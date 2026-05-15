@@ -81,7 +81,7 @@
         res = await fetch(BACKEND_URL, {
           method:  'POST',
           headers: { 'Content-Type': 'application/json' },
-          body:    JSON.stringify({ amount: 1799, currency: 'usd', email, name }),
+          body:    JSON.stringify({ amount: 100, currency: 'usd', email, name }),
         });
       } catch (networkErr) {
         console.error('[Nova Pay] Network / CORS error:', networkErr);
@@ -126,6 +126,11 @@
         setLoading(false);
       } else if (paymentIntent.status === 'succeeded') {
         console.log('[Nova Pay] Payment succeeded:', paymentIntent.id);
+        fetch('/api/send-confirmation', {
+          method:  'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body:    JSON.stringify({ paymentIntentId: paymentIntent.id, email, name }),
+        }).catch((err) => console.warn('[Nova Pay] Confirmation email fire failed:', err));
         showSuccess(email);
       }
     } catch (err) {
