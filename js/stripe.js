@@ -81,7 +81,7 @@
         res = await fetch(BACKEND_URL, {
           method:  'POST',
           headers: { 'Content-Type': 'application/json' },
-          body:    JSON.stringify({ amount: 100, currency: 'usd', email, name }),
+          body:    JSON.stringify({ amount: 1799, currency: 'usd', email, name }),
         });
       } catch (networkErr) {
         console.error('[Nova Pay] Network / CORS error:', networkErr);

@@ -28,7 +28,7 @@
       createOrder(data, actions) {
         return actions.order.create({
           purchase_units: [{
-            amount:      { value: '1.00', currency_code: 'USD' },
+            amount:      { value: '17.99', currency_code: 'USD' },
             description: 'Built By Nova — 60-Day Transformation Program',
           }],
           application_context: { shipping_preference: 'NO_SHIPPING' },
