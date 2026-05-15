@@ -4,7 +4,7 @@
   'use strict';
 
   const PK          = 'pk_live_51TVmz3BOPhpUnwYGNdckTxxoR8e8h9SC5fvFl6vg4uW6GtieA8iOL0fbNfQfVG16RIoUA6l4WWns9SlGfaE73FsO00sp8Ityaj';
-  const BACKEND_URL = 'https://nova-vbuilttheone-git-main-nova-s-projects6.vercel.app/api/create-payment-intent';
+  const BACKEND_URL = 'https://www.novavbuilt.com/api/create-payment-intent';
 
   const form     = document.getElementById('payment-form');
   const cardHost = document.getElementById('card-element');

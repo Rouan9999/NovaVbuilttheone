@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You | Built By Nova</title>
+  <meta name="description" content="Your order is confirmed. Check your email for your Built By Nova 60-Day Program.">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-70B3RZWKPC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-70B3RZWKPC');
+  </script>
+
+  <style>
+    .ty-wrap {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 24px;
+      background: var(--bg);
+    }
+    .ty-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      max-width: 520px;
+      width: 100%;
+      padding: 56px 48px;
+      text-align: center;
+      box-shadow: 0 4px 32px rgba(50,48,57,0.06);
+    }
+    .ty-icon {
+      width: 80px;
+      height: 80px;
+      background: rgba(24,195,248,0.10);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 28px;
+    }
+    .ty-icon svg { display: block; }
+    .ty-eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--cyan);
+      margin-bottom: 12px;
+    }
+    .ty-h1 {
+      font-size: clamp(26px, 4vw, 36px);
+      font-weight: 800;
+      letter-spacing: -1px;
+      line-height: 1.1;
+      color: var(--dark);
+      margin-bottom: 16px;
+    }
+    .ty-sub {
+      font-size: 15px;
+      color: var(--gray-700);
+      line-height: 1.6;
+      margin-bottom: 32px;
+    }
+    .ty-steps {
+      background: var(--bg);
+      border-radius: 12px;
+      padding: 24px 28px;
+      text-align: left;
+      margin-bottom: 32px;
+    }
+    .ty-steps p {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--gray-500);
+      margin-bottom: 14px;
+    }
+    .ty-steps ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .ty-steps li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--dark);
+      line-height: 1.5;
+    }
+    .ty-steps li::before {
+      content: '';
+      flex-shrink: 0;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--cyan-12);
+      border: 1.5px solid var(--cyan);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url("data:image/svg+xml,%3Csvg width='10' height='10' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 12l5 5L19 7' stroke='%2318C3F8' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-top: 1px;
+    }
+    .ty-ref {
+      font-size: 12px;
+      color: var(--gray-500);
+      margin-bottom: 28px;
+    }
+    .ty-ref span {
+      font-weight: 600;
+      color: var(--gray-700);
+    }
+    .ty-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--dark);
+      color: var(--white);
+      font-size: 15px;
+      font-weight: 700;
+      padding: 14px 32px;
+      border-radius: 100px;
+      text-decoration: none;
+      transition: background 0.2s ease, transform 0.2s ease;
+    }
+    .ty-back:hover {
+      background: #1e1c26;
+      transform: translateY(-1px);
+    }
+    .ty-support {
+      margin-top: 24px;
+      font-size: 13px;
+      color: var(--gray-500);
+    }
+    .ty-support a {
+      color: var(--cyan);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    @media (max-width: 560px) {
+      .ty-card { padding: 40px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="container">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Built By <span>Nova</span></a>
+    </div>
+  </div>
+</nav>
+
+<div class="ty-wrap">
+  <div class="ty-card">
+
+    <div class="ty-icon">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 20l9 9 15-15" stroke="#18C3F8" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    <p class="ty-eyebrow">Order confirmed</p>
+    <h1 class="ty-h1">You&rsquo;re all set!</h1>
+    <p class="ty-sub">Thank you for your purchase. Your 60-day program is on its way — check your inbox in the next few minutes.</p>
+
+    <div class="ty-steps">
+      <p>What happens next</p>
+      <ul>
+        <li>Check your email for the download link</li>
+        <li>Save the file and open it on any device</li>
+        <li>Start Day 1 whenever you&rsquo;re ready — your transformation begins now</li>
+      </ul>
+    </div>
+
+    <p class="ty-ref" id="order-ref" style="display:none;">Order ref: <span id="ref-id"></span></p>
+
+    <a href="index.html" class="ty-back">
+      Back to Home
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+
+    <p class="ty-support">
+      Didn&rsquo;t receive your email? Contact us at
+      <a href="mailto:novabuiltbusiness@gmail.com">novabuiltbusiness@gmail.com</a>
+    </p>
+
+  </div>
+</div>
+
+<script>
+  (function () {
+    var params = new URLSearchParams(window.location.search);
+    var ref = params.get('ref');
+    if (ref) {
+      var el = document.getElementById('ref-id');
+      var wrap = document.getElementById('order-ref');
+      if (el && wrap) { el.textContent = ref; wrap.style.display = 'block'; }
+    }
+  })();
+</script>
+
+</body>
+</html>

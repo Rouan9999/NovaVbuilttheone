@@ -11,7 +11,10 @@
       "WebFetch(domain:nova-landing-page-beta.vercel.app)",
       "WebFetch(domain:nova-vbuilttheone-git-main-nova-s-projects6.vercel.app)",
       "PowerShell(Start-Process \"C:\\\\Users\\\\Rouan\\\\Desktop\\\\nova-landing-page\\\\product.html\")",
-      "WebFetch(domain:www.novavbuilt.com)"
+      "WebFetch(domain:www.novavbuilt.com)",
+      "PowerShell(Start-Process \"C:\\\\Users\\\\Rouan\\\\Desktop\\\\nova-landing-page\\\\index.html\")",
+      "Bash(vercel --prod)",
+      "Bash(git add *)"
     ]
   }
 }
